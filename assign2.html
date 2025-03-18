@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 1-2</title>
+</head>
+<body>
+    <form action="#" method="post">
+        <table border="1" cellspacing="2" >
+            <tr>
+                <td align="right"><label for="firstname">First name</label></td>
+                <td><input type="text" id="firstname" name="firstname"></td>
+            </tr>
+            <tr>
+                <td align="right"><label for="lastname">Last name</label></td>
+                <td><input type="text" id="lastname" name="lastname"></td>
+            </tr>
+            <tr>
+                <td align="right"><label for="gender">Gender</label></td>
+                <td>
+                    <select id="gender" name="gender">
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td align="right"><label for="email">Email</label></td>
+                <td><input type="email" id="email" name="email"></td>
+            </tr>
+            <tr>
+                <td align="right"><label for="address">Address</label></td>
+                <td><textarea id="address" name="address"></textarea></td>
+            </tr>
+            <tr>
+                <td align="right"><label for="city">City</label></td>
+                <td><input type="text" id="city" name="city"></td>
+            </tr>
+            <tr>
+                <td align="right"><label for="zipcode">Zip/Postal code</label></td>
+                <td><input type="text" id="zipcode" name="zipcode"></td>
+            </tr>
+            <tr>
+                <td align="right"><label for="country">Country</label></td>
+                <td>
+                    <select id="country" name="country">
+                        <option value="korea">Korea</option>
+                        <!-- Add more options as needed -->
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td align="right">Starting date</td>
+                <td>
+                    <input type="radio" id="spring2023" name="starting_date" value="spring2023">
+                    <label for="spring2023">Spring 2023</label> 
+                    <input type="radio" id="fall2023" name="starting_date" value="fall2023">
+                    <label for="fall2023">Fall 2023</label> 
+                </td>
+            </tr>
+            <tr>
+                <td align="right"><label for="comments">Comments/Questions</label></td>
+                <td><textarea id="comments" name="comments"></textarea></td>
+            </tr>
+            <tr style="text-align: center; background-color: lightblue;">
+                <td colspan="2">
+                    <button type="submit" style="height: 25px;">Submit</button> 
+                    <button type="reset"  style="height: 25px;">Clear this Form</button> 
+                </td> 
+            </tr> 
+        </table>  
+    </form>  
+</body>  
+</html> 
